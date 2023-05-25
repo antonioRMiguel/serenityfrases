@@ -1,0 +1,17 @@
+{
+  "name": "serenityfrases",
+  "version": "1.0.0",
+  "description": "frases diárias de serenidade",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "lint": "eslint ./src",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "Antônio Rodrigues Miguel",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.3.8"
+  }
+}

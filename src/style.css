@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: all 0.9s ease-in-out;
+}
+
+p {
+    padding: 10px;
+    transition: all 0.9s ease-in-out;
+}
+
+body {
+    display: flex;
+    font-family: 'roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    min-height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.9s ease-in-out;
+}
+
+main {
+    background-color: rgba(228, 226, 226, 0.9);
+    max-width: 500px;
+    max-height: 500px;
+    text-align: center;
+    padding: 40px 40px;
+    border-radius: 10px;
+    box-shadow: #000000 1px 1px 10px;
+    transition: all 0.9s ease-in-out;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+footer {
+    padding: 15px;
+}
+
+footer p {
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgba(61, 55, 55, 0.226);
+}
+
+.contact-icons {
+    display: flex;
+    margin-top: 0.31rem;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 0.4rem;
+}
+
+.get-quote {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(173, 196, 175, 0.5);
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.9s ease-in-out;
+}
+
+.get-quote:hover {
+ background-color: transparent;
+ padding: 25px;
+ transition: all 0.9s ease-in-out;
+}
+
+
+
